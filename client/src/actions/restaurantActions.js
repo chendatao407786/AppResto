@@ -1,6 +1,6 @@
 import axios from 'axios';
 import {GET_RESTAURANTS,ADD_RESTAURANT,DELETE_RESTAURANT,LOADING_RESTAURANT} from './types';
-import Restaurant from '../components/Restaurant';
+// import Restaurant from '../components/Restaurant';
 
 export const getRestaurants = () => dispatch => {
     dispatch(setRestaurantLoading());

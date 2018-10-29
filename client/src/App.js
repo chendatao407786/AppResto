@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Restaurant from './components/Restaurant';
 import RestaurantList from './components/RestaurantList';
 import { Provider } from 'react-redux';
 import store from './store'

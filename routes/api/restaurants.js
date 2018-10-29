@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const mongo = require('mongodb')
-const Restaurant = require('../../model/Restaurant');
+const Restaurant = require('../../models/Restaurant');
 
 
 //@router   POST api/items
